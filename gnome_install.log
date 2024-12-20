@@ -1,0 +1,475 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gnome-shell is already the newest version (42.9-0ubuntu2.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+73 not fully installed or removed.
+After this operation, 0 B of additional disk space will be used.
+Do you want to continue? [Y/n] Setting up python3.10 (3.10.12-1~22.04.7) ...
+Could not find platform independent libraries <prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Python path configuration:
+  PYTHONHOME = (not set)
+  PYTHONPATH = (not set)
+  program name = '/usr/bin/python3.10'
+  isolated = 0
+  environment = 0
+  user site = 1
+  import site = 0
+  sys._base_executable = '/usr/bin/python3.10'
+  sys.base_prefix = '/usr'
+  sys.base_exec_prefix = '/usr'
+  sys.platlibdir = 'lib'
+  sys.executable = '/usr/bin/python3.10'
+  sys.prefix = '/usr'
+  sys.exec_prefix = '/usr'
+  sys.path = [
+    '/usr/lib/python310.zip',
+    '/usr/lib/python3.10',
+    '/usr/lib/python3.10/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007db0f5f2d000 (most recent call first):
+  <no Python frame>
+dpkg: error processing package python3.10 (--configure):
+ installed python3.10 package post-installation script subprocess returned error exit status 1
+dpkg: dependency problems prevent configuration of gedit:
+ gedit depends on python3.10; however:
+  Package python3.10 is not configured yet.
+
+dpkg: error processing package gedit (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3:
+ python3 depends on python3.10 (>= 3.10.6-1~); however:
+  Package python3.10 is not configured yet.
+
+dpkg: error processing package python3 (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-zipp:
+ python3-zipp depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-zipp (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of apport:
+ apport depends on python3; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package apport (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-tz:
+ python3-tz depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-tz (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-apport:
+ python3-apport depends on python3:any (>= 3.0~); however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-apport (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-cupshelpers:
+ python3-cupshelpers depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-cupshelpers (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-six:
+ python3-six depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-six (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-cups:amd64:
+ python3-cups:amd64 depends on python3 (<< 3.11); however:
+  Package python3 is not configured yet.
+ python3-cups:amd64 depends on python3 (>= 3.10~); however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-cups:amd64 (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-oauthlib:
+ python3-oauthlib depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-oauthlib (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-chardet:
+ python3-chardet depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-chardet (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-secretstorage:
+ python3-secretstorage depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-secretstorage (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-pyparsing:
+ python3-pyparsing depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-pyparsing (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of system-config-printer:
+ system-config-printer depends on python3-cups (>= 1.9.60); however:
+  Package python3-cups:amd64 is not configured yet.
+ system-config-printer depends on python3-cupshelpers (= 1.5.16-0ubuntu3); however:
+  Package python3-cupshelpers is not configured yet.
+ system-config-printer depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package system-config-printer (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-certifi:
+ python3-certifi depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-certifi (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-cryptography:
+ python3-cryptography depends on python3 (>= 3~); however:
+  Package python3 is not configured yet.
+ python3-cryptography depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-cryptography (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-wadllib:
+ python3-wadllib depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-wadllib (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-gi:
+ python3-gi depends on python3 (<< 3.11); however:
+  Package python3 is not configured yet.
+ python3-gi depends on python3 (>= 3.10~); however:
+  Package python3 is not configured yet.
+ python3-gi depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-gi (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-requests:
+ python3-requests depends on python3-certifi; however:
+  Package python3-certifi is not configured yet.
+ python3-requests depends on python3-chardet (>= 3.0.2); however:
+  Package python3-chardet is not configured yet.
+ python3-requests depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-requests (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-ldb:
+ python3-ldb depends on python3 (<< 3.11); however:
+  Package python3 is not configured yet.
+ python3-ldb depends on python3 (>= 3.10~); however:
+  Package python3 is not configured yet.
+ python3-ldb depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-ldb (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-idna:
+ python3-idna depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-idna (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-jeepney:
+ python3-jeepney depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-jeepney (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-urllib3:
+ python3-urllib3 depends on python3:any; however:
+  Package python3 is not configured yet.
+ python3-urllib3 depends on python3-six; however:
+  Package python3-six is not configured yet.
+
+dpkg: error processing package python3-urllib3 (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of gnome-shell:
+ gnome-shell depends on python3; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package gnome-shell (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of ubuntu-session:
+ ubuntu-session depends on gnome-shell (>= 3.37.91); however:
+  Package gnome-shell is not configured yet.
+
+dpkg: error processing package ubuntu-session (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of ibus:
+ ibus depends on python3:any; however:
+  Package python3 is not configured yet.
+ ibus depends on python3-gi; however:
+  Package python3-gi is not configured yet.
+
+dpkg: error processing package ibus (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of gdm3:
+ gdm3 depends on gnome-shell (>= 3.37.90); however:
+  Package gnome-shell is not configured yet.
+
+dpkg: error processing package gdm3 (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-defer:
+ python3-defer depends on python3:any (>= 3.2~); however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-defer (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-keyring:
+ python3-keyring depends on python3-jeepney (>= 0.4.2); however:
+  Package python3-jeepney is not configured yet.
+ python3-keyring depends on python3-secretstorage (>= 3.2); however:
+  Package python3-secretstorage is not configured yet.
+ python3-keyring depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-keyring (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-httplib2:
+ python3-httplib2 depends on python3-pyparsing; however:
+  Package python3-pyparsing is not configured yet.
+ python3-httplib2 depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-httplib2 (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of language-selector-common:
+ language-selector-common depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package language-selector-common (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of lsb-release:
+ lsb-release depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package lsb-release (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-protobuf:
+ python3-protobuf depends on python3 (<< 3.11); however:
+  Package python3 is not configured yet.
+ python3-protobuf depends on python3 (>= 3.10~); however:
+  Package python3 is not configured yet.
+ python3-protobuf depends on python3-six (>= 1.9); however:
+  Package python3-six is not configured yet.
+ python3-protobuf depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-protobuf (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-rfc3339:
+ python3-rfc3339 depends on python3-tz; however:
+  Package python3-tz is not configured yet.
+ python3-rfc3339 depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-rfc3339 (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-macaroonbakery:
+ python3-macaroonbakery depends on python3-protobuf; however:
+  Package python3-protobuf is not configured yet.
+ python3-macaroonbakery depends on python3-requests; however:
+  Package python3-requests is not configured yet.
+ python3-macaroonbakery depends on python3-rfc3339; however:
+  Package python3-rfc3339 is not configured yet.
+ python3-macaroonbakery depends on python3-six (<< 2.0); however:
+  Package python3-six is not configured yet.
+ python3-macaroonbakery depends on python3-six (>= 1.11.0); however:
+  Package python3-six is not configured yet.
+ python3-macaroonbakery depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-macaroonbakery (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-aptdaemon.gtk3widgets:
+ python3-aptdaemon.gtk3widgets depends on python3:any (>= 3.2~); however:
+  Package python3 is not configured yet.
+ python3-aptdaemon.gtk3widgets depends on python3-gi; however:
+  Package python3-gi is not configured yet.
+
+dpkg: error processing package python3-aptdaemon.gtk3widgets (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-ibus-1.0:
+ python3-ibus-1.0 depends on python3:any; however:
+  Package python3 is not configured yet.
+ python3-ibus-1.0 depends on python3-gi (>= 3.8); however:
+  Package python3-gi is not configured yet.
+
+dpkg: error processing package python3-ibus-1.0 (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-lazr.restfulclient:
+ python3-lazr.restfulclient depends on python3-httplib2 (>= 0.7.7); however:
+  Package python3-httplib2 is not configured yet.
+ python3-lazr.restfulclient depends on python3-wadllib (>= 1.1.4); however:
+  Package python3-wadllib is not configured yet.
+ python3-lazr.restfulclient depends on python3-oauthlib; however:
+  Package python3-oauthlib is not configured yet.
+ python3-lazr.restfulclient depends on python3-six; however:
+  Package python3-six is not configured yet.
+ python3-lazr.restfulclient depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-lazr.restfulclient (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-gi-cairo:
+ python3-gi-cairo depends on python3-gi (= 3.42.1-0ubuntu1); however:
+  Package python3-gi is not configured yet.
+ python3-gi-cairo depends on python3 (<< 3.11); however:
+  Package python3 is not configured yet.
+ python3-gi-cairo depends on python3 (>= 3.10~); however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-gi-cairo (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-nacl:
+ python3-nacl depends on python3 (>= 3~); however:
+  Package python3 is not configured yet.
+ python3-nacl depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-nacl (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-systemd:
+ python3-systemd depends on python3 (<< 3.11); however:
+  Package python3 is not configured yet.
+ python3-systemd depends on python3 (>= 3.10~); however:
+  Package python3 is not configured yet.
+ python3-systemd depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-systemd (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-cffi-backend:amd64:
+ python3-cffi-backend:amd64 depends on python3 (<< 3.11); however:
+  Package python3 is not configured yet.
+ python3-cffi-backend:amd64 depends on python3 (>= 3.10~); however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-cffi-backend:amd64 (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-blinker:
+ python3-blinker depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-blinker (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-pkg-resources:
+ python3-pkg-resources depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-pkg-resources (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-more-itertools:
+ python3-more-itertools depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-more-itertools (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of language-selector-gnome:
+ language-selector-gnome depends on language-selector-common (= 0.219.1); however:
+  Package language-selector-common is not configured yet.
+ language-selector-gnome depends on python3:any; however:
+  Package python3 is not configured yet.
+ language-selector-gnome depends on python3-gi; however:
+  Package python3-gi is not configured yet.
+ language-selector-gnome depends on python3-aptdaemon.gtk3widgets; however:
+  Package python3-aptdaemon.gtk3widgets is not configured yet.
+
+dpkg: error processing package language-selector-gnome (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of gedit-common:
+ gedit-common depends on python3:any (>= 3.3.2-2~); however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package gedit-common (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of python3-dbus:
+ python3-dbus depends on python3 (<< 3.11); however:
+  Package python3 is not configured yet.
+ python3-dbus depends on python3 (>= 3.10~); however:
+  Package python3 is not configured yet.
+ python3-dbus depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package python3-dbus (--configure):
+ dependency problems - leaving unconfigured
+dpkg: dependency problems prevent configuration of system-config-printer-common:
+ system-config-printer-common depends on python3-cups (>= 1.9.60); however:
+  Package python3-cups:amd64 is not configured yet.
+ system-config-printer-common depends on python3-cupshelpers (= 1.5.16-0ubuntu3); however:
+  Package python3-cupshelpers is not configured yet.
+ system-config-printer-common depends on python3-dbus; however:
+  Package python3-dbus is not configured yet.
+ system-config-printer-common depends on python3-gi; however:
+  Package python3-gi is not configured yet.
+ system-config-printer-common depends on python3:any; however:
+  Package python3 is not configured yet.
+
+dpkg: error processing package system-config-printer-common (--configure):
+ dependency problems - leaving unconfigured
+dpkg: too many errors, stopping
+Errors were encountered while processing:
+ python3.10
+ gedit
+ python3
+ python3-zipp
+ apport
+ python3-tz
+ python3-apport
+ python3-cupshelpers
+ python3-six
+ python3-cups:amd64
+ python3-oauthlib
+ python3-chardet
+ python3-secretstorage
+ python3-pyparsing
+ system-config-printer
+ python3-certifi
+ python3-cryptography
+ python3-wadllib
+ python3-gi
+ python3-requests
+ python3-ldb
+ python3-idna
+ python3-jeepney
+ python3-urllib3
+ gnome-shell
+ ubuntu-session
+ ibus
+ gdm3
+ python3-defer
+ python3-keyring
+ python3-httplib2
+ language-selector-common
+ lsb-release
+ python3-protobuf
+ python3-rfc3339
+ python3-macaroonbakery
+ python3-aptdaemon.gtk3widgets
+ python3-ibus-1.0
+ python3-lazr.restfulclient
+ python3-gi-cairo
+ python3-nacl
+ python3-systemd
+ python3-cffi-backend:amd64
+ python3-blinker
+ python3-pkg-resources
+ python3-more-itertools
+ language-selector-gnome
+ gedit-common
+ python3-dbus
+ system-config-printer-common
+Processing was halted because there were too many errors.
